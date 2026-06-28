@@ -16,7 +16,7 @@ Este notebook implementa camadas de **guardrails** sobre o modelo Qwen2.5-0.5B (
 ```
 questao6_guardrails/
 ├── questao6_guardrails.ipynb   ← notebook principal (rode célula a célula)
-├── README.md                   ← este arquivo
+├── README.md                   
 └── resultados_guardrails_q6.json  ← gerado ao rodar o notebook
 ```
 
@@ -26,12 +26,7 @@ questao6_guardrails/
 
 1. Certifique-se de ter o ambiente da Questão 2 configurado (mesmas dependências).
 2. Abra o notebook `questao6_guardrails.ipynb` no Jupyter.
-3. **Opcional:** se você já treinou o modelo SFT da Q2, edite a Célula 2 para carregar o modelo salvo:
-   ```python
-   # Substitua MODEL_NAME pelo caminho local:
-   MODEL_NAME = "./qwen25_sft_docentes_final"
-   ```
-4. Execute as células de cima para baixo.
+3. Execute as células de cima para baixo.
 
 ---
 
